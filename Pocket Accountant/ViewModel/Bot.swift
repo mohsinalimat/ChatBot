@@ -10,7 +10,7 @@ import UIKit
 
 class Bot: NSObject {
     
-    static let sharedInstance = Bot()
+    static let shared = Bot()
     
     var user: User!
     var money: Double?
@@ -20,7 +20,7 @@ class Bot: NSObject {
     var earnBool = false
     var spentBool = false
     var token = [String]()
-    let coreData = CoreDataStack.shared
+    let coreData = CoreDataManager.shared
     var responseSpent: String {
         get {
             user.money -= Int(self.money!)

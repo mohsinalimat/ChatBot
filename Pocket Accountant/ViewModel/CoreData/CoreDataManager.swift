@@ -9,9 +9,9 @@
 import UIKit
 import CoreData
 
-class CoreDataStack: NSObject {
+class CoreDataManager: NSObject {
 
-    static let shared = CoreDataStack()
+    static let shared = CoreDataManager()
     
     var managedObjectContext: NSManagedObjectContext
     var fetchedItems = 0

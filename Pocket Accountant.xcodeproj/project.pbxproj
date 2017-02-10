@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		937003AB6460B38A34835526 /* Pods_Pocket_Accountant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900C89E5BB0CF08E6B1E5D66 /* Pods_Pocket_Accountant.framework */; };
+		A80DE4561E28DA5900393E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80DE4551E28DA5900393E21 /* AppDelegate.swift */; };
+		A80DE45B1E28DA5900393E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80DE4591E28DA5900393E21 /* Main.storyboard */; };
+		A80DE45D1E28DA5900393E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80DE45C1E28DA5900393E21 /* Assets.xcassets */; };
+		A80DE4601E28DA5900393E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80DE45E1E28DA5900393E21 /* LaunchScreen.storyboard */; };
+		A80DE49C1E2ABCF600393E21 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80DE49A1E2ABCF600393E21 /* ChatViewController.swift */; };
+		A80DE49D1E2ABCF600393E21 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80DE49B1E2ABCF600393E21 /* LoginViewController.swift */; };
+		A8A858B81E4C628D00DA2411 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A858AE1E4C628D00DA2411 /* CoreDataManager.swift */; };
+		A8A858B91E4C628D00DA2411 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8A858AF1E4C628D00DA2411 /* DataModel.xcdatamodeld */; };
+		A8A858BE1E4C628D00DA2411 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A858B51E4C628D00DA2411 /* Bot.swift */; };
+		A8A9551B1E4DC4250006CDA5 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A955151E4DC4250006CDA5 /* Category+CoreDataClass.swift */; };
+		A8A9551C1E4DC4250006CDA5 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A955161E4DC4250006CDA5 /* Category+CoreDataProperties.swift */; };
+		A8A9551D1E4DC4250006CDA5 /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A955171E4DC4250006CDA5 /* Message+CoreDataClass.swift */; };
+		A8A9551E1E4DC4250006CDA5 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A955181E4DC4250006CDA5 /* Message+CoreDataProperties.swift */; };
+		A8A9551F1E4DC4250006CDA5 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A955191E4DC4250006CDA5 /* User+CoreDataClass.swift */; };
+		A8A955201E4DC4250006CDA5 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A9551A1E4DC4250006CDA5 /* User+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34CD8C437572E9A07CB5CBF3 /* Pods-Pocket Accountant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Accountant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket Accountant/Pods-Pocket Accountant.release.xcconfig"; sourceTree = "<group>"; };
+		900C89E5BB0CF08E6B1E5D66 /* Pods_Pocket_Accountant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Accountant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80DE4521E28DA5900393E21 /* Pocket Accountant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Accountant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80DE4551E28DA5900393E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A80DE45A1E28DA5900393E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80DE45C1E28DA5900393E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80DE45F1E28DA5900393E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A80DE4611E28DA5900393E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80DE49A1E2ABCF600393E21 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A80DE49B1E2ABCF600393E21 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A8A858AE1E4C628D00DA2411 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A8A858B01E4C628D00DA2411 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		A8A858B51E4C628D00DA2411 /* Bot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
+		A8A955151E4DC4250006CDA5 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8A955161E4DC4250006CDA5 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8A955171E4DC4250006CDA5 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8A955181E4DC4250006CDA5 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8A955191E4DC4250006CDA5 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8A9551A1E4DC4250006CDA5 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C863086040AE98BBBB6BDA19 /* Pods-Pocket Accountant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Accountant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pocket Accountant/Pods-Pocket Accountant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80DE44F1E28DA5800393E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937003AB6460B38A34835526 /* Pods_Pocket_Accountant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D369E48D5B178ACF0BDCA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C863086040AE98BBBB6BDA19 /* Pods-Pocket Accountant.debug.xcconfig */,
+				34CD8C437572E9A07CB5CBF3 /* Pods-Pocket Accountant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		662D27DD94B6B51BD270D698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				900C89E5BB0CF08E6B1E5D66 /* Pods_Pocket_Accountant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80DE4491E28DA5800393E21 = {
+			isa = PBXGroup;
+			children = (
+				A80DE4541E28DA5900393E21 /* Pocket Accountant */,
+				A80DE4531E28DA5900393E21 /* Products */,
+				0D369E48D5B178ACF0BDCA1C /* Pods */,
+				662D27DD94B6B51BD270D698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A80DE4531E28DA5900393E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80DE4521E28DA5900393E21 /* Pocket Accountant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80DE4541E28DA5900393E21 /* Pocket Accountant */ = {
+			isa = PBXGroup;
+			children = (
+				A80DE4971E2ABCE000393E21 /* Model */,
+				A80DE4981E2ABCE000393E21 /* View */,
+				A80DE4991E2ABCE000393E21 /* ViewModel */,
+				A80DE4551E28DA5900393E21 /* AppDelegate.swift */,
+				A80DE4591E28DA5900393E21 /* Main.storyboard */,
+				A80DE45C1E28DA5900393E21 /* Assets.xcassets */,
+				A80DE45E1E28DA5900393E21 /* LaunchScreen.storyboard */,
+				A80DE4611E28DA5900393E21 /* Info.plist */,
+			);
+			path = "Pocket Accountant";
+			sourceTree = "<group>";
+		};
+		A80DE4971E2ABCE000393E21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8A955151E4DC4250006CDA5 /* Category+CoreDataClass.swift */,
+				A8A955161E4DC4250006CDA5 /* Category+CoreDataProperties.swift */,
+				A8A955171E4DC4250006CDA5 /* Message+CoreDataClass.swift */,
+				A8A955181E4DC4250006CDA5 /* Message+CoreDataProperties.swift */,
+				A8A955191E4DC4250006CDA5 /* User+CoreDataClass.swift */,
+				A8A9551A1E4DC4250006CDA5 /* User+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A80DE4981E2ABCE000393E21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A80DE49A1E2ABCF600393E21 /* ChatViewController.swift */,
+				A80DE49B1E2ABCF600393E21 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A80DE4991E2ABCE000393E21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8A858AB1E4C628D00DA2411 /* CoreData */,
+				A8A858B51E4C628D00DA2411 /* Bot.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8A858AB1E4C628D00DA2411 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A8A858AE1E4C628D00DA2411 /* CoreDataManager.swift */,
+				A8A858AF1E4C628D00DA2411 /* DataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80DE4511E28DA5800393E21 /* Pocket Accountant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80DE4641E28DA5900393E21 /* Build configuration list for PBXNativeTarget "Pocket Accountant" */;
+			buildPhases = (
+				2BB73D738AFD0F9740F5099F /* [CP] Check Pods Manifest.lock */,
+				A80DE44E1E28DA5800393E21 /* Sources */,
+				A80DE44F1E28DA5800393E21 /* Frameworks */,
+				A80DE4501E28DA5800393E21 /* Resources */,
+				DF471D1E5DFBE4354511A107 /* [CP] Embed Pods Frameworks */,
+				CB78323C0DAFD2D2859744B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Accountant";
+			productName = "Pocket Accountant";
+			productReference = A80DE4521E28DA5900393E21 /* Pocket Accountant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80DE44A1E28DA5800393E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Alexandr;
+				TargetAttributes = {
+					A80DE4511E28DA5800393E21 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 27EMTZ4TK6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A80DE44D1E28DA5800393E21 /* Build configuration list for PBXProject "Pocket Accountant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80DE4491E28DA5800393E21;
+			productRefGroup = A80DE4531E28DA5900393E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80DE4511E28DA5800393E21 /* Pocket Accountant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80DE4501E28DA5800393E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80DE4601E28DA5900393E21 /* LaunchScreen.storyboard in Resources */,
+				A80DE45D1E28DA5900393E21 /* Assets.xcassets in Resources */,
+				A80DE45B1E28DA5900393E21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB73D738AFD0F9740F5099F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB78323C0DAFD2D2859744B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pocket Accountant/Pods-Pocket Accountant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF471D1E5DFBE4354511A107 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pocket Accountant/Pods-Pocket Accountant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80DE44E1E28DA5800393E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A9551D1E4DC4250006CDA5 /* Message+CoreDataClass.swift in Sources */,
+				A80DE49D1E2ABCF600393E21 /* LoginViewController.swift in Sources */,
+				A8A955201E4DC4250006CDA5 /* User+CoreDataProperties.swift in Sources */,
+				A8A858B91E4C628D00DA2411 /* DataModel.xcdatamodeld in Sources */,
+				A8A9551B1E4DC4250006CDA5 /* Category+CoreDataClass.swift in Sources */,
+				A8A858B81E4C628D00DA2411 /* CoreDataManager.swift in Sources */,
+				A80DE49C1E2ABCF600393E21 /* ChatViewController.swift in Sources */,
+				A8A858BE1E4C628D00DA2411 /* Bot.swift in Sources */,
+				A80DE4561E28DA5900393E21 /* AppDelegate.swift in Sources */,
+				A8A9551F1E4DC4250006CDA5 /* User+CoreDataClass.swift in Sources */,
+				A8A9551E1E4DC4250006CDA5 /* Message+CoreDataProperties.swift in Sources */,
+				A8A9551C1E4DC4250006CDA5 /* Category+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A80DE4591E28DA5900393E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80DE45A1E28DA5900393E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A80DE45E1E28DA5900393E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80DE45F1E28DA5900393E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80DE4621E28DA5900393E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80DE4631E28DA5900393E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80DE4651E28DA5900393E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C863086040AE98BBBB6BDA19 /* Pods-Pocket Accountant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27EMTZ4TK6;
+				INFOPLIST_FILE = "Pocket Accountant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.Pocket-Accountant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A80DE4661E28DA5900393E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CD8C437572E9A07CB5CBF3 /* Pods-Pocket Accountant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27EMTZ4TK6;
+				INFOPLIST_FILE = "Pocket Accountant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kh.Pocket-Accountant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80DE44D1E28DA5800393E21 /* Build configuration list for PBXProject "Pocket Accountant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80DE4621E28DA5900393E21 /* Debug */,
+				A80DE4631E28DA5900393E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80DE4641E28DA5900393E21 /* Build configuration list for PBXNativeTarget "Pocket Accountant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80DE4651E28DA5900393E21 /* Debug */,
+				A80DE4661E28DA5900393E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8A858AF1E4C628D00DA2411 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8A858B01E4C628D00DA2411 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = A8A858B01E4C628D00DA2411 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A80DE44A1E28DA5800393E21 /* Project object */;
+}

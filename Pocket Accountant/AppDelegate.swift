@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  ChatBot
+//  Pocket Accountant
 //
-//  Created by Alexandr on 14.09.16.
-//  Copyright © 2016 Alexandr. All rights reserved.
+//  Created by Alexandr on 13.01.17.
+//  Copyright © 2017 Alexandr. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var coreData = CoreDataStack.shared
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

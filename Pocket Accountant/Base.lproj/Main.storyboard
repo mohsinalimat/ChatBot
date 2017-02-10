@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Pocket_Accountant" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urq-UA-sw8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URg-SV-nDM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MTc-G7-hxy">
+                                                <rect key="frame" x="124" y="397" width="126" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pocket Accountant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsK-UK-TWn">
+                                                <rect key="frame" x="55.5" y="138" width="264.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="MTc-G7-hxy" firstAttribute="centerX" secondItem="URg-SV-nDM" secondAttribute="centerX" id="9vC-aR-kUv"/>
+                                            <constraint firstItem="QsK-UK-TWn" firstAttribute="top" secondItem="URg-SV-nDM" secondAttribute="top" constant="138" id="Mu7-l5-3gc"/>
+                                            <constraint firstAttribute="bottom" secondItem="MTc-G7-hxy" secondAttribute="bottom" constant="220" id="oer-qa-ZtL"/>
+                                            <constraint firstItem="QsK-UK-TWn" firstAttribute="centerX" secondItem="URg-SV-nDM" secondAttribute="centerX" id="y6W-ig-Q6k"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="URg-SV-nDM" firstAttribute="leading" secondItem="Urq-UA-sw8" secondAttribute="leading" id="6OX-Cz-Vlj"/>
+                                    <constraint firstItem="URg-SV-nDM" firstAttribute="centerY" secondItem="Urq-UA-sw8" secondAttribute="centerY" id="EvP-yS-glq"/>
+                                    <constraint firstAttribute="trailing" secondItem="URg-SV-nDM" secondAttribute="trailing" id="KAs-Uv-kDR"/>
+                                    <constraint firstItem="URg-SV-nDM" firstAttribute="top" secondItem="Urq-UA-sw8" secondAttribute="top" id="Sgv-t2-7t5"/>
+                                    <constraint firstAttribute="bottom" secondItem="URg-SV-nDM" secondAttribute="bottom" id="qP3-w7-msA"/>
+                                    <constraint firstItem="URg-SV-nDM" firstAttribute="centerX" secondItem="Urq-UA-sw8" secondAttribute="centerX" id="rDw-ar-jXz"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Urq-UA-sw8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10" id="BrN-N9-6sa"/>
+                            <constraint firstItem="Urq-UA-sw8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C6h-DO-uYS"/>
+                            <constraint firstAttribute="trailing" secondItem="Urq-UA-sw8" secondAttribute="trailing" id="CkL-r8-dUj"/>
+                            <constraint firstItem="Urq-UA-sw8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="YIM-ss-MTq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Urq-UA-sw8" secondAttribute="bottom" id="dqS-zf-xgX"/>
+                            <constraint firstItem="Urq-UA-sw8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hsz-Kh-wgh"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="loginTextField" destination="MTc-G7-hxy" id="gzC-vg-ZCC"/>
+                        <outlet property="loginTextfFieldBottomConstraint" destination="oer-qa-ZtL" id="Qhd-ZO-c1a"/>
+                        <outlet property="scrollView" destination="Urq-UA-sw8" id="4gr-VK-m7k"/>
+                        <segue destination="Fg0-Tq-6eh" kind="show" identifier="segueToChat" id="eea-eg-A9s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--Accountant-->
+        <scene sceneID="tkB-2c-QHP">
+            <objects>
+                <viewController id="aa4-OE-CED" customClass="ChatViewController" customModule="Pocket_Accountant" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C7i-OG-2r7"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Bg-Xm-FUY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bsU-8F-OaN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Accountant" id="jSd-aY-zSg"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <segue destination="pR3-Lh-043" kind="unwind" identifier="unwindToLogin" unwindAction="unwindToLoginWithSegue:" id="4Qi-8S-R2K"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueToLogin" id="Xuw-sc-5RP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQ9-hU-oAc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="pR3-Lh-043" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1911.2" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mcD-am-Rpn">
+            <objects>
+                <navigationController storyboardIdentifier="Chat" automaticallyAdjustsScrollViewInsets="NO" id="Fg0-Tq-6eh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xhj-pC-jcP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aa4-OE-CED" kind="relationship" relationship="rootViewController" id="e4f-6A-LJQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZM-Ew-xQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="136.28185907046478"/>
+        </scene>
+    </scenes>
+</document>

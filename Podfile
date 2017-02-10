@@ -1,9 +1,6 @@
-# Uncomment this line to define a global platform for your project
-platform :ios, '10.0'
-
-target 'ChatBot' do
+target 'Pocket Accountant' do
   use_frameworks!
 
-  # Pods for ChatBot
+  # Pods for Pocket Accountant
   pod 'JSQMessagesViewController'
 end
